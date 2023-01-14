@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  max-width: 1920px;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  margin: 0 auto;
+}
+
+:root {
+  --primary-color: #ff900e;
+  --primary-font-color: #131313;
+  --secondary-font-color: #727272;
+  --font-size: 16px;
+  --line-height: 26px;
+}
+
+/* -------- Header section start --------- */
+.btn-primary {
+    background-color: var(--primary-color);
+    color:#ffffff;
+    padding: 20px 22px;
+    border-radius: 8px;
+}
+.button{
+    text-align: center;
+}
+header {
+  height: 1322px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+nav {
+  padding: 50px 230px;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__links ul {
+  display: flex;
+  align-items: center;
+}
+.nav__links ul li a {
+  margin-left: 35px;
+  color: var(--secondary-font-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav__logo h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.heading__container {
+  padding: 52px 529px 0 529px;
+}
+.heading__container h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+}
+.heading__container p{
+    font-size: var(--font-size);
+    color: var(--secondary-font-color);
+    line-height: var(--line-height);
+    text-align: center;
+    padding: 32px 0;
+    font-weight: 400;
+}
+.banner__container{
+    margin: 45px 240px;
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* -------- Header section end --------- */
+
+.feature__container{
+    padding: 85px 301px;
+    border: 1px solid red;
+}
+.feature__container-flex{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.feature__left{
+    width: 60%;
+}
+.feature__right{
+    width: 40%;
+}
+.feature__left-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.feature__left-grid img{
+    width: 100%;
+}
+.feature__right .span{
+    font-size: 45px;
+    line-height: 53px;
+}
+.span .span-gray{
+    color: gray;
+    font-weight: 400;
+}
+.span .span-black{
+    color:var(--primary-font-color);
+    
+}
+.span .span-orange{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* +++++++++  HIding ++++++++++ */
+.hide{
+    display: none;
+}
