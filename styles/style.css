@@ -25,13 +25,13 @@ html {
 
 /* -------- Header section start --------- */
 .btn-primary {
-    background-color: var(--primary-color);
-    color:#ffffff;
-    padding: 20px 22px;
-    border-radius: 8px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 20px 22px;
+  border-radius: 8px;
 }
-.button{
-    text-align: center;
+.button {
+  text-align: center;
 }
 header {
   height: 1322px;
@@ -70,70 +70,143 @@ nav {
   line-height: 75px;
   text-align: center;
 }
-.heading__container p{
-    font-size: var(--font-size);
-    color: var(--secondary-font-color);
-    line-height: var(--line-height);
-    text-align: center;
-    padding: 32px 0;
-    font-weight: 400;
+.heading__container p {
+  font-size: var(--font-size);
+  color: var(--secondary-font-color);
+  line-height: var(--line-height);
+  text-align: center;
+  padding: 32px 0;
+  font-weight: 400;
 }
-.banner__container{
-    margin: 45px 240px;
+.banner__container {
+  margin: 45px 240px;
 }
-.banner img{
-    width: 100%;
-    object-fit: cover;
+.banner img {
+  width: 100%;
+  object-fit: cover;
 }
 
 /* -------- Header section end --------- */
+/* -------- features section start --------- */
 
-.feature__container{
-    padding: 85px 301px;
-    border: 1px solid red;
+.feature__container {
+  padding: 85px 301px;
 }
-.feature__container-flex{
-    display: flex;
-    gap: 70px;
-    align-items: center;
+.feature__container-flex {
+  display: flex;
+  gap: 70px;
+  align-items: center;
 }
-.feature__left{
-    width: 60%;
+.feature__left {
+  width: 60%;
 }
-.feature__right{
-    width: 40%;
+.feature__right {
+  width: 40%;
 }
-.feature__left-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.feature__left-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
-.feature__left-grid img{
-    width: 100%;
+.feature__left-grid img {
+  width: 100%;
 }
-.feature__right .span{
-    font-size: 45px;
-    line-height: 53px;
+.feature__right .span {
+  font-size: 45px;
+  line-height: 53px;
 }
-.span .span-gray{
-    color: gray;
-    font-weight: 400;
+.span .span-gray {
+  color: gray;
+  font-weight: 400;
 }
-.span .span-black{
-    color:var(--primary-font-color);
-    
+.span .span-black {
+  color: var(--primary-font-color);
 }
-.span .span-orange{
-    color: var(--primary-color);
-    font-weight: 600;
+.span .span-orange {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.feature__info {
+  color: var(--secondary-font-color);
+  line-height: var(--line-height);
+  font-size: var(--font-size);
+  padding: 25px 0;
+}
+/* -------- features section end --------- */
+
+/* ----------feature-facilities section start----------- */
+.feature-facilities {
+  margin: 130px 240px;
+  /* height: 1060px; */
+  position: relative;
+}
+.facilities__container {
+  display: flex;
+  gap: 10%;
+}
+.facilities__left {
+  width: 40%;
+}
+.facilities__right {
+  width: 50%;
+  height: 100%;
+}
+.facilities__right img {
+  width: 100%;
+}
+.facilities__heading h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  border-left: 5px solid var(--primary-color);
+  padding-left: 30px;
+  padding: 24px;
+}
+.para {
+  color: var(--secondary-font-color);
+  line-height: var(--line-height);
+  font-size: var(--font-size);
+  padding: 25px 0;
+  font-weight: 400;
 }
 
+.facility__box {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+}
+.facility__box h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--primary-font-color);
+}
+.experience {
+  position: absolute;
+  background-color: var(--primary-color);
+  padding: 42px;
+  border-radius: 10px;
+  top: 91%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+.experience h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+}
+.experience p{
+    color: #ffffff;
+    font-size: 24px;
+}
 
-
-
-
+/* ----------feature-facilities section start----------- */
 
 /* +++++++++  HIding ++++++++++ */
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
