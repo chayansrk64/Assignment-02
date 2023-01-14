@@ -199,14 +199,55 @@ nav {
   font-size: 65px;
   line-height: 70px;
 }
-.experience p{
-    color: #ffffff;
-    font-size: 24px;
+.experience p {
+  color: #ffffff;
+  font-size: 24px;
 }
 
 /* ----------feature-facilities section start----------- */
-
-/* +++++++++  HIding ++++++++++ */
-.hide {
-  display: none;
+/* ---------facts section start ---------- */
+.facts__container {
+  margin: 100px 240px;
 }
+.facts__heading {
+  width: 30%;
+}
+.facts__heading h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 70px;
+}
+.facts__container-grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+
+}
+.facts__box{
+  height: 242px;
+  width: 242px;
+  border: 1px solid var(--primary-color);
+  transition: all 0.8s ease;
+}
+.facts__box:hover{
+    /* border: none; */
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.6);
+    transform: scale(0.95);
+}
+.facts__box img{
+    padding-top: 35px;
+}
+.facts__box h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: var(--primary-font-color);
+}
+
+/* ---------facts section end ---------- */
+/* ----------sponsors section start---------- */
+.sponsors__container{
+    margin: 100px 240px;
+}
+/* ----------sponsors section end---------- */

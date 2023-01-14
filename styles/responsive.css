@@ -114,6 +114,24 @@
         line-height: 30px;
       }
     
+      .facts__container {
+        margin: 50px 10px;
+      }
+      .facts__heading {
+        width: 100%;
+      }
+      .facts__heading h2 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .facts__container-grid {
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        gap: 25px;
+      
+      }
 
 
 
@@ -237,10 +255,27 @@
         line-height: 30px;
       }
     
-    
-    
 
       /* --------feature facilities start------- */
+
+      .facts__container {
+        margin: 50px 10px;
+      }
+      .facts__heading {
+        width: 100%;
+      }
+      .facts__heading h2 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .facts__container-grid {
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        gap: 25px;
+      
+      }
 
 
 
@@ -313,6 +348,25 @@
       .facilities__right {
         width: 100%;
         height: 100%;
+      }
+
+      .facts__container {
+        margin: 50px 10px;
+      }
+      .facts__heading {
+        width: 100%;
+      }
+      .facts__heading h2 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .facts__container-grid {
+        justify-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        gap: 25px;
+      
       }
     
     
