@@ -179,6 +179,12 @@
       padding-bottom: 15px;
     }
 
+    /* --------footer--------- */
+    .footer__container{
+      padding: 20px 0px;
+    }
+  
+    
 
 
 
@@ -370,7 +376,10 @@
       
     }
     /* ----------subscribe--------------- */
-    
+    /* ---------footer----------- */
+    .footer__container{
+      padding: 20px 0px;
+    }
 
 
 

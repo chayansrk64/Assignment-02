@@ -331,3 +331,14 @@ nav {
 }
 
 /* ---------------subscribe--------------------- */
+/* ------------footer----------------- */
+.footer__container{
+  padding: 50px 240px;
+}
+.footer__info{
+  background-color:  #FFF4E7;
+  padding: 40px;
+  color: var(--secondary-font-color);
+  text-align: center;
+  border-radius: 8px;
+}
