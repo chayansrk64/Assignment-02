@@ -29,6 +29,13 @@ html {
   color: #ffffff;
   padding: 20px 22px;
   border-radius: 8px;
+  border: 2px solid var(--primary-color);
+}
+.btn-primary:hover{
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-font-color);
+  cursor: pointer;
 }
 .button {
   text-align: center;
@@ -54,11 +61,20 @@ nav {
   color: var(--secondary-font-color);
   font-size: 18px;
   font-weight: 500;
+  transition: all 0.2s ease-out;
+}
+.nav__links ul li a:hover{
+  color: var(--primary-color);
+   
 }
 .nav__logo h3 {
   font-weight: 700;
   font-size: 45px;
   line-height: 53px;
+  transition: all 0.2s ease-out;
+}
+.nav__logo h3:hover{
+  color: var(--primary-color);
 }
 
 .heading__container {
