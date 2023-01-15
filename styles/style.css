@@ -256,6 +256,10 @@ nav {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+.sponsors__heading h2{
+  font-size: 45px;
+  color: var(--primary-font-color);
+}
 .sponsors__container-grid{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
