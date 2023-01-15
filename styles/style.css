@@ -284,6 +284,7 @@ nav {
 
 .subscribe__container {
   background: var(--primary-color);
+  margin-top: 50px;
 }
 .subscribe__container .subscribe__box {
 	width: 33% !important;
@@ -300,6 +301,7 @@ nav {
 }
 .subscribe__box p{
   margin-bottom: 50px;
+  padding: 20px;
 }
  
 .subscribe__box form {
