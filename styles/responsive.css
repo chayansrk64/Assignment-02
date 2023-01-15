@@ -364,7 +364,7 @@
 
     /* ----------subscribe--------------- */
     .subscribe__container .subscribe__box {
-      width: 33% !important;
+      width: 50% !important;
       margin: 0 auto;
       text-align: center;
       padding: 50px 0;
@@ -375,7 +375,6 @@
       border-radius: 80px;
       border: 3px solid #10221b;
       padding: 13px;
-      /* width: 100%; */
       margin: 0 auto;
       
     }
@@ -396,7 +395,7 @@
 
 
 
-/* --------- Optional Responsive ---------- */
+/* --------- large devices Responsive ---------- */
 
 @media screen and (min-width:993px) and (max-width:1280px) {
     .heading__container {
@@ -497,6 +496,13 @@
       width: 80%;
       filter: grayscale(1);
       transition: all 0.5s ease-out;
+    }
+
+    .subscribe__container .subscribe__box {
+      width: 50% !important;
+      margin: 0 auto;
+      text-align: center;
+      padding: 50px 0;
     }
     
     
